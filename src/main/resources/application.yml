@@ -6,3 +6,15 @@ jwt:
   expires_in: 300 # 5 minutes
   mobile_expires_in: 600 # 10 minutes
   secret: queenvictoria
+spring:
+  application:
+    name: dubbo-provider
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring_security
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+#数据据迁移工具
+flyway:
+  baseline-on-migrate: true
+  table: migrations

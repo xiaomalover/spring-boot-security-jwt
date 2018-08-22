@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<groupId>com.weison</groupId>
+	<artifactId>sprint-boot-security-jwt</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-security-jwt</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-security-jwt</name>
+	<description>Demo project for Spring Boot Security And jwt</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -61,8 +61,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
@@ -106,6 +106,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- 数据库迁移工具 -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
 		</dependency>
 	</dependencies>
 

@@ -61,7 +61,7 @@ mvn spring-boot:run
 springboot-jwt-starter/
  ├──src/                                                        * 源代码
  │   ├──main
- │   │   ├──java.com.bfwg
+ │   │   ├──java.com.weison
  │   │   │   ├──common/                                         * 一些简单的帮助class
  │   │   │   ├──config
  │   │   │   │   └──WebSecurityConfig.java                      * 配置文件，用来配置安全以及过滤组件
